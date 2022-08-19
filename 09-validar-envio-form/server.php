@@ -16,20 +16,20 @@
   // die();
 
   // validación por inputs
-  // if ( isset($_POST["nombre"]) && !empty($_POST["nombre"]) ) {
-  //   echo "!Hola " . $_POST['nombre'] . "!!!!";
-  // } else {
-  //   echo "No mandste nada!!!";
-  // }
+  if ( isset($_POST["nombre"]) && !empty($_POST["nombre"]) ) {
+    echo "!Hola " . $_POST['nombre'] . "!!!!";
+  } else {
+    echo "No mandste nada!!!";
+  }
 
 
   // var_dump($_POST["form"]);
   // die();
 
   // validacion en el formulario
-  if( isset($_POST["form"]) ) {
-    echo "Todo el form fue mandado";
-  } else {
-    echo "No se envio el form";
-  }
+  // if( isset($_POST["form"]) ) {
+  //   echo "Todo el form fue mandado";
+  // } else {
+  //   echo "No se envio el form";
+  // }
   
